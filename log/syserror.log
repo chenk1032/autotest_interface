@@ -1,0 +1,105 @@
+2020-09-05 12:01:56,557 analyse.py[line:66] ERROR formatting_info=True not yet implemented
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/analyse.py", line 34, in export2excel
+    src = open_workbook(config.src_path + '/report/report_module.xls', formatting_info=True)
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\xlrd\__init__.py", line 138, in open_workbook
+    ragged_rows=ragged_rows,
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\xlrd\xlsx.py", line 798, in open_workbook_2007_xml
+    raise NotImplementedError("formatting_info=True not yet implemented")
+NotImplementedError: formatting_info=True not yet implemented
+2020-09-05 12:02:13,637 compare.py[line:76] ERROR 'str' object has no attribute 'keys'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 36, in compare_code
+    if temp_code_to_compare in temp_result_interface.keys():
+AttributeError: 'str' object has no attribute 'keys'
+2020-09-05 12:02:13,652 compare.py[line:173] ERROR 'dict' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 154, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'dict' object has no attribute 'startswith'
+2020-09-05 12:02:13,652 compare.py[line:143] ERROR 'str' object has no attribute 'str'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 112, in compare_params_complete
+    if self.params_to_compare.startswith('[') and isinstance(self.params_to_compare.str):
+AttributeError: 'str' object has no attribute 'str'
+2020-09-05 12:25:34,532 compare.py[line:76] ERROR 'str' object has no attribute 'keys'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 36, in compare_code
+    if temp_code_to_compare in temp_result_interface.keys():
+AttributeError: 'str' object has no attribute 'keys'
+2020-09-05 12:25:34,532 compare.py[line:173] ERROR 'dict' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 154, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'dict' object has no attribute 'startswith'
+2020-09-05 12:25:34,532 compare.py[line:143] ERROR 'str' object has no attribute 'str'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 112, in compare_params_complete
+    if self.params_to_compare.startswith('[') and isinstance(self.params_to_compare.str):
+AttributeError: 'str' object has no attribute 'str'
+2020-09-05 12:37:58,122 compare.py[line:76] ERROR 'str' object has no attribute 'keys'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 36, in compare_code
+    if temp_code_to_compare in temp_result_interface.keys():
+AttributeError: 'str' object has no attribute 'keys'
+2020-09-05 12:50:20,250 compare.py[line:173] ERROR 'dict' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 154, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'dict' object has no attribute 'startswith'
+2020-09-05 12:50:20,250 compare.py[line:143] ERROR 'str' object has no attribute 'str'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 112, in compare_params_complete
+    if self.params_to_compare.startswith('[') and isinstance(self.params_to_compare.str):
+AttributeError: 'str' object has no attribute 'str'
+2020-09-05 12:50:32,909 compare.py[line:173] ERROR 'dict' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 154, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'dict' object has no attribute 'startswith'
+2020-09-05 12:50:32,909 compare.py[line:143] ERROR 'str' object has no attribute 'str'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 112, in compare_params_complete
+    if self.params_to_compare.startswith('[') and isinstance(self.params_to_compare.str):
+AttributeError: 'str' object has no attribute 'str'
+2020-09-05 13:41:35,654 compare.py[line:173] ERROR 'dict' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 154, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'dict' object has no attribute 'startswith'
+2020-09-05 13:41:35,654 compare.py[line:143] ERROR 'str' object has no attribute 'str'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 112, in compare_params_complete
+    if self.params_to_compare.startswith('[') and isinstance(self.params_to_compare.str):
+AttributeError: 'str' object has no attribute 'str'
+2020-09-05 13:47:18,594 analyse.py[line:66] ERROR 'cdoe'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/analyse.py", line 54, in export2excel
+    elif len(cases_interface['data']) == 0 and cases_interface['cdoe'] == '0000':
+KeyError: 'cdoe'
+2020-09-05 13:51:13,085 opmysql.py[line:33] ERROR (1044, "Access denied for user 'test_user1'@'%' to database 'test_interface'")
+Traceback (most recent call last):
+  File "C:\Users\cxxmc\PycharmProjects\autotest_interface\common\opmysql.py", line 25, in __init__
+    charset='utf8')
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 327, in __init__
+    self.connect()
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 588, in connect
+    self._request_authentication()
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 863, in _request_authentication
+    auth_packet = self._process_auth(plugin_name, auth_packet)
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 936, in _process_auth
+    pkt = self._read_packet()
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "C:\Users\cxxmc\AppData\Local\Programs\Python\Python36\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1044, "Access denied for user 'test_user1'@'%' to database 'test_interface'")
+2020-09-05 13:52:35,961 analyse.py[line:66] ERROR 'cdoe'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/analyse.py", line 54, in export2excel
+    elif len(cases_interface['data']) == 0 and cases_interface['cdoe'] == '0000':
+KeyError: 'cdoe'
