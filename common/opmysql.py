@@ -14,14 +14,18 @@ ath = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 
 class OperationDbInterface(object):
     # link_type 返回数据格式 0=字典 !0=元组
-    def __init__(self, host_db='127.0.0.1', user_db='test_user1', passwd_db='test_user1', name_db='test_interface',
-                 port_db=3306, link_type=0):
+    def __init__(self):
+        db_config = config.db_connection
         try:
-            if link_type == 0:
-                self.conn = pymysql.connect(host=host_db, user=user_db, passwd=passwd_db, db=name_db, port=port_db,
+            if db_config['link_type'] == 0:
+                self.conn = pymysql.connect(host=db_config['host_db'], user=db_config['user_db'],
+                                            passwd=db_config['passwd_db'], db=db_config['name_db'],
+                                            port=db_config['port_db'],
                                             charset='utf8', cursorclass=pymysql.cursors.DictCursor)
             else:
-                self.conn = pymysql.connect(host=host_db, user=user_db, passwd=passwd_db, db=name_db, port=port_db,
+                self.conn = pymysql.connect(host=db_config['host_db'], user=db_config['user_db'],
+                                            passwd=db_config['passwd_db'], db=db_config['name_db'],
+                                            port=db_config['port_db'],
                                             charset='utf8')
             self.cur = self.conn.cursor()
             print("数据库连接成功")
