@@ -103,3 +103,13 @@ Traceback (most recent call last):
   File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/analyse.py", line 54, in export2excel
     elif len(cases_interface['data']) == 0 and cases_interface['cdoe'] == '0000':
 KeyError: 'cdoe'
+2020-09-06 14:53:29,633 compare.py[line:173] ERROR 'dict' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 154, in __recur_params
+    if result_interface.startswith('{') and isinstance(result_interface, str):
+AttributeError: 'dict' object has no attribute 'startswith'
+2020-09-06 14:53:29,633 compare.py[line:143] ERROR 'str' object has no attribute 'str'
+Traceback (most recent call last):
+  File "C:/Users/cxxmc/PycharmProjects/autotest_interface/common/compare.py", line 112, in compare_params_complete
+    if self.params_to_compare.startswith('[') and isinstance(self.params_to_compare.str):
+AttributeError: 'str' object has no attribute 'str'
